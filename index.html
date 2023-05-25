@@ -14,9 +14,10 @@
         </header>
         <!-- the setup -->
         <main>
+            <p class="api-key-notice">Get your API key <a href="https://platform.openai.com/account/api-keys" target="_blank">here</a></p>
             <input type="text" id="api-key-input" placeholder="Enter your OpenAI API key" />
             <button id="apikey-btn">Send</button>
-            <p id="api-key-error"></p>
+            <p id="api-key-error">Please enter your OpenAI API key in order to use this app!</p>
             <section id="setup-container">
                 <div class="setup-inner">
                     <img class="mascot" id="mascot" src="./images/mascot.png">
@@ -39,7 +40,6 @@
             <section class="output-container" id="output-container">
 				<div id="output-img-container" class="output-img-container"></div>
 				<h1 id="output-title"></h1>
-				<h2 id="output-stars"></h2>
 				<p id="output-text"></p>
 			</section>
         </main>
